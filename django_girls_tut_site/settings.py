@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '0scarB.pythonanywhere.com'
+    '0scarB.pythonanywhere.com',
+    'OscarB2.pythonanywhere.com'
 ]
 
 
