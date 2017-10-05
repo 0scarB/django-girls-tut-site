@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta lang="en"/>
+    <title>Mazes</title>
+  </head>
+  <body>
+    <div>
+      <h1><u>Mazes</u></h1>
+    </div>
+    <div>
+      {% for maze in mazes %}
+        <div>
+          <p>
+            published: {{ maze.published_date }}
+          </p>
+          <h1><a href="">{{ maze.title }}</a></h1>
+          <p>
+            {{ maze.maze_svg|safe }}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
